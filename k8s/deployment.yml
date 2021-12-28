@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: kyc-admin-portal
+  name: kyc-admin-portal
+  namespace: kyc-admin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kyc-admin-portal
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: kyc-admin-portal
+    spec:
+      containers:
+      - image: 192.168.0.106:5000/kyc-admin-portal:IMAGE_TAG
+        imagePullPolicy: Always
+        name: kyc-admin-portal-container
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

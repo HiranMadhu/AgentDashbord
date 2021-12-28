@@ -1,0 +1,15 @@
+<svg id="Group_1972" data-name="Group 1972" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_346" data-name="Group 346">
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="15" cy="15" r="15" fill="#1a1a1a"/>
+    <g id="Group_345" data-name="Group 345">
+      <g id="Group_164" data-name="Group 164">
+        <rect id="Rectangle_67" data-name="Rectangle 67" width="30" height="30" fill="rgba(0,0,0,0)"/>
+        <g id="left-arrow" transform="translate(12.88 9.688)">
+          <g id="Group_163" data-name="Group 163">
+            <path id="Path_255" data-name="Path 255" d="M105.623,5.313,101.65,1.339a.582.582,0,0,1,0-.822L102,.17a.582.582,0,0,1,.822,0L107.551,4.9a.586.586,0,0,1,0,.825l-4.727,4.727a.582.582,0,0,1-.822,0l-.348-.348a.582.582,0,0,1,0-.822Z" transform="translate(-101.48 0)" fill="#f8f8f8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

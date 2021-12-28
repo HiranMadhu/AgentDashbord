@@ -1,0 +1,46 @@
+.popupTitle {
+  font-size: 16px !important;
+  margin-bottom: 20px !important;
+  font-family: Poppins;
+}
+
+.inputForms {
+  width: 476px;
+  height: 45px;
+  background-color: #f1efef;
+  border-radius: 5px;
+  font-size: 14px;
+  font: 14px/21px Poppins;
+  color: #000000;
+  opacity: 1;
+  border: 0px;
+}
+
+.inputDropdown {
+  width: 476px;
+  height: 45px;
+  background-color: #f1efef;
+  border-radius: 3px;
+  font-size: 14px;
+  font: 14px/21px Poppins;
+  color: #000000;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: #fff;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  height: 45 px;
+  background: transparent;
+  padding: 8px;
+  border: 0px;
+  height: 44px;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: transparent;
+  border-right-width: 0 px !important;
+  outline: 0;
+  /* box-shadow: 0 0 0 2px rgb(24 144 255 / 20%); */
+}

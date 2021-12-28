@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+	parameters{
+		gitParameter branchFilter: 'origin/(.*)', defaultValue: 'develop', name: 'BRANCH', type: 'PT_BRANCH'
+		choice(choices: ['dev', 'sit', 'production'], description: 'Select the Environment', name: 'ENVIRONMENT')
+	}
+    environment{
+    		ENVIRONMENT="${ENVIRONMENT}"
+    		WORKSPACE="${env.WORKSPACE}"
+            BUILD_NUMBER="${env.BUILD_NUMBER}"
+    		BRANCHNAME="${BRANCH}"
+   	}
+    stages {
+        stage('SelectionCheck'){
+            steps{
+                script{
+                    println "Branch: ${BRANCH}"
+                    println "Environment: ${ENVIRONMENT}"
+                } 
+            }
+		}			
+		stage('Build'){
+			steps{
+				script{
+					sh 'bash jenkins/scripts/build.sh'	
+				}
+			}
+		}
+		stage('Deploy'){
+			steps{
+				script{
+					sh 'bash jenkins/scripts/deploy.sh'	
+				}
+			}
+		}
+        stage('ClearDir') {
+            steps {
+                cleanWs()
+            }
+    	}		
+    }
+}

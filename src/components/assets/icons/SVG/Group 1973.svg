@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_1973" data-name="Group 1973" transform="translate(-20 46) rotate(-90)">
+    <g id="Group_164" data-name="Group 164" transform="translate(-1694 -8777)">
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="30" height="30" rx="15" transform="translate(1710 8797)" fill="#fff"/>
+      <g id="calendar-outlined" transform="translate(1733.263 8804) rotate(90)">
+        <rect id="Rectangle_246" data-name="Rectangle 246" width="16" height="16" transform="translate(0 0.263)" fill="rgba(0,0,0,0)"/>
+        <path id="Path_286" data-name="Path 286" d="M124.227,113.146h-2.675v-1.019a.128.128,0,0,0-.127-.127h-.892a.128.128,0,0,0-.127.127v1.019h-4.076v-1.019A.128.128,0,0,0,116.2,112h-.892a.128.128,0,0,0-.127.127v1.019h-2.675a.509.509,0,0,0-.509.509v10.572a.509.509,0,0,0,.509.509h11.718a.509.509,0,0,0,.509-.509V113.656A.509.509,0,0,0,124.227,113.146Zm-.637,10.444H113.146v-6.05h10.444Zm-10.444-7.133v-2.165h2.038v.764a.128.128,0,0,0,.127.127h.892a.128.128,0,0,0,.127-.127v-.764h4.076v.764a.128.128,0,0,0,.127.127h.892a.128.128,0,0,0,.127-.127v-.764h2.038v2.165Z" transform="translate(-110.217 -110.257)" fill="#1a1a1a"/>
+      </g>
+    </g>
+  </g>
+</svg>
