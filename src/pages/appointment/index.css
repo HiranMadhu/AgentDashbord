@@ -1,0 +1,96 @@
+.site-page-header {
+  border: 0px;
+  background-color: #3a3a3a;
+}
+
+.ant-card-body {
+  height: 478px;
+}
+
+#components-page-header-demo-content .image {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 60px;
+}
+
+#components-page-header-demo-content .ant-page-header-rtl .image {
+  margin: 0 60px 0 0;
+}
+
+#components-page-header-demo-content .example-link {
+  margin-right: 16px;
+  line-height: 24px;
+}
+[data-theme="compact"] #components-page-header-demo-content .example-link {
+  line-height: 20px;
+}
+#components-page-header-demo-content .example-link-icon {
+  margin-right: 8px;
+}
+
+[data-theme="compact"] #components-page-header-demo-content .example-link-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#components-page-header-demo-content .ant-page-header-rtl .example-link {
+  float: right;
+  margin-right: 0;
+  margin-left: 16px;
+}
+#components-page-header-demo-content .ant-page-header-rtl .example-link-icon {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  #components-page-header-demo-content .image {
+    flex: 100%;
+    margin: 24px 0 0;
+  }
+}
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  border-color: #4fba9c;
+  border-radius: 5px;
+  background: #4fba9c;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-card-actions > li > span:hover {
+  color: #4fba9c;
+  transition: color 0.3s;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background: #ffffff;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: #fff;
+  border-color: #fdb813;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon
+  .ant-steps-icon {
+  color: #fdb813;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #fdb813;
+  border-color: #fdb813;
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: white !important;
+}

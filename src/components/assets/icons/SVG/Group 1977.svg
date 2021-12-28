@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1977" data-name="Group 1977" transform="translate(20784 -1313)">
+    <g id="Rectangle_520" data-name="Rectangle 520" transform="translate(-20784 1313)" fill="#1a1a1a" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="document" d="M15.862,7.145a.971.971,0,0,0-.044-.2V6.878a.793.793,0,0,0-.141-.208h0L11.228,2.222h0a.793.793,0,0,0-.208-.141h-.067L10.717,2H6.224A2.224,2.224,0,0,0,4,4.224V14.6a2.224,2.224,0,0,0,2.224,2.224h7.414A2.224,2.224,0,0,0,15.862,14.6V7.145ZM11.414,4.528l1.92,1.92h-1.92ZM14.379,14.6a.741.741,0,0,1-.741.741H6.224a.741.741,0,0,1-.741-.741V4.224a.741.741,0,0,1,.741-.741H9.931V7.19a.741.741,0,0,0,.741.741h3.707Z" transform="translate(-20781.93 1315.586)"/>
+  </g>
+</svg>

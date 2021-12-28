@@ -1,0 +1,3 @@
+export DOCKER_REGISTRY=192.168.0.106:5000
+export SERVICE_NAME=kyc-admin-portal
+export DEPLOYMENT_ENV_IP=192.168.0.108

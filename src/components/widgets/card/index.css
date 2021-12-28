@@ -1,0 +1,22 @@
+.adl-card {
+  height: 102px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 24px;
+  display: table;
+  padding: 25px;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  font-family: "Poppins";
+  padding-left: 31px;
+}
+.adl-card-body {
+  margin: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 0px;
+  opacity: 1;
+  line-height: 99%;
+}
